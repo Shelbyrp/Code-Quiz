@@ -140,6 +140,7 @@ function allDone() {
 
     if (secondsLeft >= 0) {
         var timeRemaining = secondsLeft;
+        result.setAttribute("id", "result");
         result.textContent = "Your final score is: " + timeRemaining;
         clearInterval(timer);
    
@@ -200,7 +201,6 @@ function allDone() {
 }
 
 //need to add exit button
-//Remove the total score
 //Remove the active timer 
 //Finalise the css & README
 
