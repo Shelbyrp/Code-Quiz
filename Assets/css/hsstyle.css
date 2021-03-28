@@ -20,11 +20,6 @@
     margin: 20px;
 }
 
-#quizTimer {
-    float: right;
-    font-size: 24px;
-}
-
 #goBack {
     background-color: purple;
     position: relative;
@@ -45,7 +40,7 @@
     font-size: 20px;
     color: white;
     top: 30%;
-    left: 15%;
+    left: 5%;
     text-align: center;
 }
 
@@ -62,25 +57,17 @@ textarea {
     margin: 20px;
 }
 
-label {
-    margin-right: 10px;
-}
-input {
-    margin-bottom: 20px;
-    width: 50%;
-    border: 1px solid lightgray;
-}
-
 h1 {
     text-align: center;
     font-weight: normal;
+    font-size: 2rem;
 }
 
 p{
     padding: 10px;
     font-size: small;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -95,28 +82,6 @@ li {
     border-radius: 5px;
 }
 
-#response {
-    margin-top: 20px;
-    border-top: 1px solid lightgray;
-}
-
-#scores{
-    text-decoration: none;
-    font-size: 24px;
-    padding: 20px;
-    margin-top: 40px;
-    color: purple;
-}
-
-#instructions{
-    font-size: 18px;
-    font-weight: normal;
-}
-
-#result{
-    text-align: left;
-}
-
 /* Start media queries */
 /* A Media Query max-width: 786px */
 @media screen and (max-width: 786px) {
@@ -125,7 +90,7 @@ body {
     max-width: 786px;
 }
 /* Resized main-content to fit 786px  */
-#wrapper {
+#quizWrapper {
 position: absolute;
 left: 20%;
 }
@@ -151,7 +116,7 @@ body {
     min-width: 600px;
 }
 /* Resized main-content to fit 600px  */
-#wrapper {
+#quizWrapper {
     position: absolute;
     left: 10%;
     }
@@ -159,4 +124,20 @@ body {
       margin-left: 10%;
     }
 }
+
+/* A Media Query max-width: 350px */
+@media screen and (max-width: 350px) {
+    /* Resized content to fit 350px  */
+    body {
+        min-width: 350px;
+    }
+    /* Resized main-content to fit 350px  */
+    #quizWrapper {
+        position: absolute;
+        left: 10%;
+        }
+        a {
+          margin-left: 10%;
+        }
+    }
 }

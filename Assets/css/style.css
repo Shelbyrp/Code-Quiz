@@ -98,13 +98,14 @@ input {
 h1 {
     text-align: center;
     font-weight: normal;
+    font-size: 2rem;
 }
 
 p{
     padding: 10px;
     font-size: small;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -153,7 +154,12 @@ body {
     max-width: 786px;
 }
 /* Resized main-content to fit 786px  */
-#wrapper {
+#quizWrapper{
+position: absolute;
+left: 20%;
+}
+
+#quizTimer {
 position: absolute;
 left: 20%;
 }
@@ -180,11 +186,34 @@ body {
     min-width: 600px;
 }
 /* Resized main-content to fit 600px  */
-#wrapper {
+#quizWrapper{
     position: absolute;
     left: 10%;
     }
     a {
       margin-left: 10%;
+    }
+    #quizTimer {
+        position: absolute;
+        left: 20%;
+    }
+    /* A Media Query max-width: 350px */
+@media screen and (max-width: 350px) {
+    /* Resized content to fit 350px  */
+    body {
+        min-width: 350px;
+    }
+    #quizTimer {
+        position: absolute;
+        left: 20%;
+    }
+    /* Resized main-content to fit 350px  */
+    #quizWrapper {
+        position: absolute;
+        left: 10%;
+        }
+        a {
+          margin-left: 10%;
+        }
     }
 }
