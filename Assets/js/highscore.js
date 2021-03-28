@@ -1,6 +1,6 @@
 // Declared variables
 var highScore = document.querySelector("#highScore");
-var clear = document.querySelector("#clear");
+var clear = document.querySelector("#clearScores");
 var goBack = document.querySelector("#goBack");
 
 // Event listener to clear scores 

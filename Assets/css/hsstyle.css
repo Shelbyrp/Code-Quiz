@@ -16,13 +16,6 @@
     font-weight: bold;
 }
 
-#startQuiz {
-    background-color: purple;
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-}
 #quizContent {
     margin: 20px;
 }
@@ -52,7 +45,7 @@
     font-size: 20px;
     color: white;
     top: 30%;
-    right: 5%;
+    left: 15%;
     text-align: center;
 }
 
@@ -67,23 +60,6 @@ button:hover {
 textarea {
     width: 90%;
     margin: 20px;
-}
-
-#submitButton {
-    background-color: purple;
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-}
-
-#resetButton {
-    background-color: purple;
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-    margin-top: 20px;
 }
 
 label {
@@ -109,18 +85,14 @@ p{
 }
 
 li {
-    background-color: purple;
+    background-color: plum;
     padding: 5px 10px;
-    width: 40%;
+    width: 95%;
     font-size: 18px;
     color: white;
     align-items: left;
     margin: 15px 0px 10px 10px;
     border-radius: 5px;
-}
-
-li:hover{
-    opacity: 0.6;
 }
 
 #response {
@@ -172,7 +144,6 @@ margin-left: 20%;
     position: relative;
     right: 5%;
 }
-}
 /* A Media Query max-width: 640px */
 @media screen and (max-width: 600px) {
 /* Resized content to fit 640px  */
@@ -187,4 +158,5 @@ body {
     a {
       margin-left: 10%;
     }
+}
 }
