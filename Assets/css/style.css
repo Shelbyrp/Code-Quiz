@@ -157,6 +157,7 @@ body {
 #quizWrapper{
 position: absolute;
 left: 20%;
+width: 40vw;
 }
 
 #quizTimer {
@@ -189,6 +190,7 @@ body {
 #quizWrapper{
     position: absolute;
     left: 10%;
+    width: 50vw;
     }
     a {
       margin-left: 10%;
@@ -197,11 +199,11 @@ body {
         position: absolute;
         left: 20%;
     }
-    /* A Media Query max-width: 350px */
-@media screen and (max-width: 350px) {
-    /* Resized content to fit 350px  */
+    /* A Media Query max-width: 375px */
+@media screen and (max-width: 375px) {
+    /* Resized content to fit 375px  */
     body {
-        min-width: 350px;
+        min-width: 375px;
     }
     #quizTimer {
         position: absolute;
@@ -211,8 +213,9 @@ body {
     #quizWrapper {
         position: absolute;
         left: 10%;
+        width: 90vw;
         }
-        a {
+    a {
           margin-left: 10%;
         }
     }
