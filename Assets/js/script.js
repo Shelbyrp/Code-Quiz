@@ -22,8 +22,8 @@ var quiz = [
     },
     {
         question: "Q5. A very useful tool for used during development and debugging for printing content to the debugger is:",
-        options: ["1. Javascript", "2. Terminal / bash", "3. For loops", "5. Console log"],
-        answer: "5. Console log"
+        options: ["1. Javascript", "2. Terminal / bash", "3. For loops", "4. Console log"],
+        answer: "4. Console log"
     },
 ];
 

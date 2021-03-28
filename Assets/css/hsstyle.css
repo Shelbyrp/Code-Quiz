@@ -119,6 +119,7 @@ body {
 #quizWrapper {
     position: absolute;
     left: 10%;
+    width: 75vw;
     }
     a {
       margin-left: 10%;
