@@ -28,4 +28,10 @@ The timer begins once the the start quiz button is clicked on. If the selected a
 
 Final URL: https://shelbyrp.github.io/Code-Quiz
 
+# License
+
+@ Shelby R Pignat
+
+Licensed under the [MIT](LICENSE) license.
+
 
